@@ -1,6 +1,6 @@
 // @ts-check
 const express = require("express");
-const { binLookup } = require("@arnabxd/bin-lookup");
+const { binLookup } = require("@wolverinexd/bin-lookup");
 
 const app = express();
 
