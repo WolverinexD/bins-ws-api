@@ -14,7 +14,7 @@ app.get("/api/:bin", async (req, res) => {
 });
 
 app.use(async (_, res) => {
-  res.redirect(301, "https://github.com/ArnabXD/bins-ws-api");
+  res.redirect(301, "https://github.com/wolverinexd/bins-ws-api");
 });
 
 if (process.env.NODE_ENV !== "production") {
